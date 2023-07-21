@@ -2,13 +2,13 @@
 
 ## Repository
 
-* Repository is a Data storage solution where the history is maintained.
+* `Repository is a Data storage(any storege ) solution where the history is maintained.`
 * Generally for this versioning is used and along with every version some meta data like reason for change is also maintained.
 * Generally Repositories also have the option to view differences between versions.
 * W.R.T CI/CD Pipelines we have two major repositories
   * Source Code Repository
   * Package Repository
- 
+
 ### Repository types
 
   ![preview](images/git1webp.webp)
@@ -16,11 +16,11 @@
 ### Version Control System (VCS)
 
 * VCS is used to store generally code (any files)
-* This is a software which helps organizations to maintain the source code.
-* VCS helps in maintaining history of changes
-* VCS allows us to maintain track of different releases which we give to customers
-* VCS allows parallel development by multiple developers
-* Software which allows us to store code along with history is called as Version Control Systems.
+* This is a software which helps `organizations to maintain the source code.`
+* VCS helps in `maintaining history of changes`
+* VCS allows us to `maintain track of different releases which we give to customers`
+* VCS allows `parallel development by multiple developers`
+* `Software which allows us to store code along with history` is called as Version Control Systems.
 
 ### Evolution of VCS
 
@@ -30,14 +30,17 @@
   
 ### Architectures of Version Control System
 
+* local version control systems
+  * it was a single machine VCS. if have many develpoers(more than one ) all the developers log into same server or machine then write a code (`single machine multi user`)
+  * its not scalable
 * Centralized Version Control Systems
-  ![preview](images/cicd3%20(1).webp)
+  ![preview](images/cicd4.webp)
   * Examples:
     * Subversion (SVN)
     * Perforce
     * IBM ClearCase
 * Distributed Version Control Systems
-   ![preview](images/cicd2.webp)
+   ![preview](images/cicd5.webp)
   * Examples:
     * Mercurial
     * Git
@@ -68,4 +71,7 @@
   * effecient
   * safe from corruption
   
+### GIT workflow
+
+![preview](images/cicd6.webp)
 

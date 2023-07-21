@@ -9,6 +9,10 @@
   * Source Code Repository
   * Package Repository
  
+### Repository types
+
+  ![preview](images/git1webp.webp)
+
 ### Version Control System (VCS)
 
 * VCS is used to store generally code (any files)
@@ -28,5 +32,24 @@
 
 * Centralized Version Control Systems
   ![preview](images/cicd3%20(1).webp)
+  * Examples:
+    * Subversion (SVN)
+    * Perforce
+    * IBM ClearCase
 * Distributed Version Control Systems
    ![preview](images/cicd2.webp)
+  * Examples:
+    * Mercurial
+    * Git
+    * Bazaar
+* Git is the most popular Version Control System.
+* Git was created by Linus Torvalds (Who create Linux Kernel)
+* This version control system was created to manage Linux Code base.
+* The primary objective behind Git was to implement & design a version 
+  control system that was distributed, reliable and fast.
+* Torvalds had three criteria
+  * distributed
+  * effecient
+  * safe from corruption
+  
+

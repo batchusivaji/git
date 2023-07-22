@@ -102,3 +102,16 @@
   ![preview](images/gitractice12.png)
 * Now lets check for status
   ![preview](images/gitractice13.png)
+* we have removed from the staging area file(pip.py)
+  ![preview](images/gitpractice14.png)
+  ![preview](images/gitractice15.png)
+* we have to delete all files at a time 
+  ![preview](images/gitractice16.png)
+  ![preview](images/gitractice17.png)
+  ![preview](images/gitractice18.png)
+* Lets make 3 changes (2 in existing files in commit and create a new file)
+  ![preview](images/gitractice19.png)
+* In Git Untracked files are the files that were not part of local repo and a new file is created.
+  ![preview](images/gitpractice20.png)
+* Now commit the changes
+  ![preview](images/gitpractice21.png

@@ -61,6 +61,7 @@
       * Bit Bucket 
     
 * Git is the most popular Version Control System.
+* 
 * Git was created by Linus Torvalds (Who create Linux Kernel)
   ![preview](images/git2.webp)
 * This version control system was created to manage Linux Code base.
@@ -73,5 +74,5 @@
   
 ### GIT workflow
 
-![preview](images/cicd6.webp)
+![preview](images/git6.png)
 

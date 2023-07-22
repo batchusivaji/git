@@ -59,9 +59,9 @@
       * Azure Source Repos
       * AWS Code Commit
       * Bit Bucket 
-    
 * Git is the most popular Version Control System.
 * Git was created by Linus Torvalds (Who create Linux Kernel)
+  ![preview](images/git2.webp)
 * This version control system was created to manage Linux Code base.
 * The primary objective behind Git was to implement & design a version 
   control system that was distributed, reliable and fast.
@@ -74,3 +74,31 @@
 
 ![preview](images/git6.png)
 
+* To create a local repo using a initalize command init in git   
+  ![preview](images/gitractice1.png)
+* Current state
+  ![preview](images/gitractice2.png)
+* For the changes to be versioned we need to have the changes in local repo.
+  * We work on working tree
+  * move the changes to staging area
+  * move the changes from staging area to local repo
+  * once the changes are in local repo we have some version, who has done the change, when the change was done, changes 
+* Lets create a main.py in src folder and ask for status 
+  ![preview](images/gitractice3.png)
+  ![preview](images/gitractice4.png)
+* Now check the status
+  ![preview](images/gitractice5.png)
+* Working tree clean represents your working tree has no changes over and top of what is present in your local repo.
+* Lets check history
+  ![preview](images/gitractice6.png)
+* Lets add one more change
+ ![preview](images/gitractice7.png)
+ ![preview](images/gitractice8.png)
+ ![preview](images/gitractice9.png)
+* what git commit is ?
+  ![preview](images/gitractice10.png)
+* We have create a new folder and done the activites as shown below
+  ![preview](images/gitractice11.png)
+  ![preview](images/gitractice12.png)
+* Now lets check for status
+  ![preview](images/gitractice13.png)

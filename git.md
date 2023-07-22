@@ -114,4 +114,5 @@
 * In Git Untracked files are the files that were not part of local repo and a new file is created.
   ![preview](images/gitpractice20.png)
 * Now commit the changes
-  ![preview](images/gitpractice21.png
+  ![preview](images/gitpractice21.png)
+  

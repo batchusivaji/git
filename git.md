@@ -105,7 +105,8 @@
 * we have removed from the staging area file(pip.py)
   ![preview](images/gitpractice14.png)
   ![preview](images/gitractice15.png)
-* we have to delete all files at a time 
+* we have to remove one file(`git rm --cached (file name)`)
+* we have to delete all files at a time (`git rm -r --cached .`)
   ![preview](images/gitractice16.png)
   ![preview](images/gitractice17.png)
   ![preview](images/gitractice18.png)
@@ -115,4 +116,15 @@
   ![preview](images/gitpractice20.png)
 * Now commit the changes
   ![preview](images/gitpractice21.png)
-  
+  ![preview](images/gitpractice22.png)
+* git log in short form `git log --oneline`
+* letus back from staging area to working tree `git restore --staged (filename)`
+  ![preview](images/gitpractice24.png)
+* letus remove untracked file which is working tree area `git restore filename`
+  ![preview](images/gitpractice25.png)
+* now we have to delete untracked file force fully `git clean -fd (filename)`
+  ![preview](images/gitpractice26.png)
+* In Git by default there will be one branch which is called as master which looks at latest commit id.
+Checkout commands moves the HEAD position. By default as master points to latest commit, HEAD points to master. IF you want navigate back in history git checkout <commit-id> to get back to latest commit git checkout master
+* Note: checkout has other flavors which we are yet to know.
+  ![preview](images/gitpractice23.png)

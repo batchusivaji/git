@@ -96,7 +96,7 @@
  ![preview](images/gitractice8.png)
  ![preview](images/gitractice9.png)
 * what git commit is ?
-  ![preview](images/gitractice10.png)
+  * ![preview](images/gitractice10.png)
 * We have create a new folder and done the activites as shown below
   ![preview](images/gitractice11.png)
   ![preview](images/gitractice12.png)

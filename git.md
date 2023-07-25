@@ -61,7 +61,7 @@
       * Bit Bucket 
 * Git is the most popular Version Control System.
 * Git was created by Linus Torvalds (Who create Linux Kernel)
-  ![preview](images/git2.webp)
+ * ![preview](images/git2.webp)
 * This version control system was created to manage Linux Code base.
 * The primary objective behind Git was to implement & design a version 
   control system that was distributed, reliable and fast.
@@ -96,7 +96,7 @@
  ![preview](images/gitractice8.png)
  ![preview](images/gitractice9.png)
 * what git commit is ?
-  ![preview](images/gitractice10.png)
+ * ![preview](images/gitractice10.png)
 * We have create a new folder and done the activites as shown below
   ![preview](images/gitractice11.png)
   ![preview](images/gitractice12.png)

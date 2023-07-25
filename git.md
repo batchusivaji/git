@@ -193,3 +193,36 @@ Lets see the contents of previous
   * Rebase
   * cherry pick
 * When we do any of the above, there might be cases leading to conflicts (merge conflicts) 
+* now we have to change the branch name(rename) `git branch -m (new branch name)`
+  ![preview](images/gitpractice51.png)
+* ` git add -A or --all` :it will add Everything
+* `git add . `:it adds all files (existing, modified and new) to the staging area . `it will works only parents or childrens of the directory`
+* `git add -u` : it only add modifying file or tracked files Modified Files
+  ![preview](images/gitpractice52.png)
+  ![preview](images/gitpractice53.png)
+  ![preview](images/gitpractice54.png)
+* Create a new folder and make it a repository
+* add one commit and rename the default branch to main
+  ![preview](images/gitpractice56.png)
+* create one more commit on main
+   ![preview](images/gitpractice57.png)
+* Lets create a branch called as sprint0
+* lets make one change in sprint0 in test/dev.py
+   ![preview](images/gitpractice58.png)
+   ![preview](images/gitpractice59.png)
+
+### Fast Forward Merge
+
+* We want changes done in sprint0 to be merged to main
+* The merge command is git merge <source-branch> i.e. you should be in target branch
+  ![previe](images/gitpractice55.png)
+* Fast forward merge happened which moves the main to the latest commit of sprint 0 branch.
+* Before Merge
+  ![preview](images/gitpractice60.png)
+* After Merge
+ ![preview](images/gitpractice61.png)
+
+### Three Way Merge
+
+* Lets create a commit on main branch and git graph should be as shown below
+  ![preview](images/gitpractice62.png)

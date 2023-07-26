@@ -198,7 +198,7 @@ Lets see the contents of previous
 * now we have to change the branch name(rename) `git branch -m (new branch name)`
   ![preview](images/gitpractice51.png)
 * ` git add -A or --all` :it will add Everything
-* `git add . `:it adds all files (existing, modified and new) to the staging area . `it will works only parents or childrens of the directory`
+* `git add . `:it adds all files (existing, modified and new) to the staging area . `it will works only parents or childrens of the directory or main file```
 * `git add -u` : it only add modifying file or tracked files Modified Files
   ![preview](images/gitpractice52.png)
   ![preview](images/gitpractice53.png)

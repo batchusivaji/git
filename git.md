@@ -186,6 +186,8 @@ Lets see the contents of previous
   ![preview](images/gitpractice48.png)
   ![preview](images/gitpractice49.png)
   ![preview](images/gitpractice50.png)
+* delete the branch `git branch -d <branch name>`
+  ![preview](images/gitpractice69.png)
 * Once we have these branches there will be needs to bring changes from one branch to another. To acheive this we need to work with
   * merge
       * Three way merge
@@ -226,3 +228,19 @@ Lets see the contents of previous
 
 * Lets create a commit on main branch and git graph should be as shown below
   ![preview](images/gitpractice62.png)
+* Current view
+  ![preview](images/gitpractice63.png)
+  ![preview](images/gitpractice64.png)
+  ![preview](images/gitpractice65.png)
+* Lets merge the changes into main
+  ![preview](images/gitpractice66.png)
+* We get merge conflict as line 1 of qa/test.py is conflicting
+* now make the changes and add them to staging area and commit to create a merge commit
+  ![preview](images/gitpractice67.png)
+  ![preview](images/gitpractice68.png)
+* Merge commit is a special commit, which has two parents
+
+### Git Rebase
+
+* Git rebase is a command used to get changes from one branch onto another by rewriting history
+* Consider the following situation where main has two commits after the sprint 0 branch was created
